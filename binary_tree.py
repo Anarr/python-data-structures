@@ -21,7 +21,6 @@ class Node:
             self.data = data
 
     def findval(self, lkpval):
-        print("curr", self.data,  " and ", lkpval)
         if lkpval < self.data:
             if self.left is None:
                 return str(lkpval) + " not found"
